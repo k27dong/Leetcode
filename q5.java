@@ -1,6 +1,3 @@
-import java.util.ArrayList;
-import java.util.Arrays;
-
 public class q5 {
     public String longestPalindrome1(String s) {
         if (s.length() == 0 || s.length() == 1) {
@@ -9,9 +6,6 @@ public class q5 {
         if (isSame(s)) {
             return s;
         }
-
-        String s_f = flip(s);
-        
         
         return "";
     }
@@ -57,14 +51,6 @@ public class q5 {
             }
         }
         return true;
-    }
-
-    private static String flip(String s) {
-        String ans = "";
-        for (int i = s.length()-1; i >= 0; i--) {
-            ans += s.charAt(i);
-        }
-        return ans;
     }
     /* end of 2nd approach */
 

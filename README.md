@@ -1,3 +1,3 @@
 ## Leetcode
 
-🙏🏻Solutions
+Solutions
